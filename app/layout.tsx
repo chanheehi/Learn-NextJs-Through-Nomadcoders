@@ -19,7 +19,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <Navigation />
+        <div style={{marginBottom: '120px'}}><Navigation /></div>
         {children}
       </body>
     </html>
