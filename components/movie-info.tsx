@@ -2,7 +2,7 @@ import style from "../styles/movie-info.module.css";
 import { API_URL } from "../app/(home)/page";
 import Link from 'next/link';
 
-async function getMovie(id: string) {
+export async function getMovie(id: string) {
   const response = await fetch(`${API_URL}/${id}`);
   const data = await response.json();
   return data;

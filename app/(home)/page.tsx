@@ -1,7 +1,6 @@
 import Link from 'next/link';
 import Movie from '../../components/movie';
-import styles from '../../styles/home.module.css'
-
+import styles from '../../styles/home.module.css';
 export const metadata = {
   title: "Home",
 }

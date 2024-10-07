@@ -1,5 +1,9 @@
 {
   "compilerOptions": {
+    "baseUrl": ".", // 프로젝트 루트 디렉토리
+    "paths": {
+      "@/*": ["./*"] // '@'는 프로젝트 루트를 가리킴
+    },
     "lib": [
       "dom",
       "dom.iterable",
