@@ -1,5 +1,5 @@
 import MovieVideos from "../../../../components/movie-videos";
-import MovieInfo, { getMovie } from "@/components/movie-info";
+import MovieInfo, { getMovie } from "../../../../components/movie-info";
 import { Suspense } from "react";
 
 interface IParams {

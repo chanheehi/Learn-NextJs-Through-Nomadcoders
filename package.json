@@ -2,10 +2,16 @@
   "name": "nextjs",
   "version": "1.0.0",
   "main": "index.js",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./*"]
+    }
+  },
   "scripts": {
-    "dev": "next dev",
-    "bulid": "next bulid",
-    "start": "next start"
+    "build": "next build",
+    "start": "next start",
+    "dev": "next dev"
   },
   "keywords": [],
   "author": "",
